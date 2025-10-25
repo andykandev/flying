@@ -7,7 +7,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0.01,
+						["deadzone"] = 0.02,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -28,7 +28,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0.2,
 						},
-						["deadzone"] = 0.01,
+						["deadzone"] = 0.02,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -103,7 +103,7 @@ local diff = {
 		["d3009pnilu3009cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
+					["key"] = "JOY_BTN_POV1_U",
 				},
 			},
 			["name"] = "Select Sparrow",
@@ -111,7 +111,7 @@ local diff = {
 		["d3010pnilu3010cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
+					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
 			["name"] = "Select Gun",
@@ -127,7 +127,7 @@ local diff = {
 		["d3012pnilu3012cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
+					["key"] = "JOY_BTN_POV1_L",
 				},
 			},
 			["name"] = "Select Sidewinder",
@@ -156,13 +156,13 @@ local diff = {
 			},
 			["name"] = "Throttle Designator Controller - DEPRESS",
 		},
-		["d3034pnilu3034cd13vd1vpnilvu0"] = {
+		["d3045pnilu3045cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "RAID/FLIR FOV Select Button",
+			["name"] = "Sensor Control Switch - Depress",
 		},
 		["dnilp3014u3014cd13vdnilvp1vu0"] = {
 			["added"] = {

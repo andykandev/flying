@@ -14,11 +14,7 @@ local diff = {
 		["d52pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Back",
-					["reformers"] = {
-						[1] = "LCtrl",
-						[2] = "LWin",
-					},
+					["key"] = "Z",
 				},
 			},
 			["name"] = "Pause",
@@ -31,11 +27,7 @@ local diff = {
 		["d816pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "Back",
-					["reformers"] = {
-						[1] = "LShift",
-						[2] = "LWin",
-					},
+					["key"] = "OEM102",
 				},
 			},
 			["name"] = "Active Pause",

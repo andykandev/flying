@@ -69,7 +69,7 @@ local diff = {
 		["a3041cd17"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_SLIDER1",
+					["key"] = "JOY_SLIDER2",
 				},
 			},
 			["name"] = "HUD Symbology Intensity Knob",
@@ -81,7 +81,10 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.03,
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -95,16 +98,6 @@ local diff = {
 		["a3047cd16"] = {
 			["added"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0.03,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_RX",
 				},
 			},
@@ -208,13 +201,13 @@ local diff = {
 			},
 			["name"] = "MODE Knob - CW",
 		},
-		["d3024pnilu3024cd16vd1vpnilvu0"] = {
+		["d3023pnilu3023cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN22",
+					["key"] = "JOY_BTN32",
 				},
 			},
-			["name"] = "Transmit Switch - VHF (call radio menu)",
+			["name"] = "Throttle Cutoff Release - Depress",
 		},
 		["d3025pnilu3025cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -235,15 +228,23 @@ local diff = {
 		["d3030pnilunilcd16vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - MISSILE OVERRIDE",
 		},
+		["d3030pnilunilcd16vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "DOGFIGHT/Missile Override Switch - CENTER",
+		},
 		["d3030pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "DOGFIGHT/Missile Override Switch - DOGFIGHT",
@@ -255,6 +256,14 @@ local diff = {
 				},
 			},
 			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
+		},
+		["d3031pnilunilcd16vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "SPD BRK Switch - OFF",
 		},
 		["d3031pnilunilcd16vd1vpnilvunil"] = {
 			["added"] = {
@@ -291,7 +300,7 @@ local diff = {
 			},
 			["name"] = "LG Handle - DN",
 		},
-		["dnilp3033unilcd16vdnilvp1vunil"] = {
+		["dnilp3033unilcd16vdnilvp0.3vunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN28",
@@ -299,13 +308,29 @@ local diff = {
 			},
 			["name"] = "ANT ELEV Knob - CW",
 		},
-		["dnilp3034unilcd16vdnilvp-1vunil"] = {
+		["dnilp3034unilcd16vdnilvp-0.3vunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "ANT ELEV Knob - CCW",
+		},
+		["dnilp3040unilcd16vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "MAN RNG Knob - CW",
+		},
+		["dnilp3041unilcd16vdnilvp-1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "MAN RNG Knob - CCW",
 		},
 	},
 }

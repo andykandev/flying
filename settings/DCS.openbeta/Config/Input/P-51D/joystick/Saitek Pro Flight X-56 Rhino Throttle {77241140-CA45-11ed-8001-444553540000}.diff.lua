@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
+			["name"] = "Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
@@ -17,7 +17,7 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Yaw (pedals)",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -32,39 +32,52 @@ local diff = {
 			},
 			["name"] = "Zoom View",
 		},
-		["a2087cdnil"] = {
+		["a3025cd5"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_Y",
+					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Flight Control Collective",
+			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a3026cd3"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Throttle",
-		},
 	},
 	["keyDiffs"] = {
-		["d3018pnilu3018cd3vd1vpnilvu0"] = {
+		["d3002pnilunilcd12vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
-					["reformers"] = {
-						[1] = "RCtrl",
-					},
+					["key"] = "JOY_BTN17",
 				},
 			},
-			["name"] = "Start-up engine",
+			["name"] = "Flaps Down",
+		},
+		["d3002pnilunilcd12vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Flaps Up",
+		},
+		["d3004pnilunilcd12vd0.1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Landing Gear Down",
+		},
+		["d3004pnilunilcd12vd0.2vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Landing Gear Up",
 		},
 	},
 }

@@ -5,9 +5,9 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.1,
+							[1] = 0.15,
 						},
-						["deadzone"] = 0.03,
+						["deadzone"] = 0.01,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -26,9 +26,12 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.1,
+							[1] = 0.15,
 						},
-						["deadzone"] = 0.03,
+						["deadzone"] = 0.01,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = false,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -60,7 +63,7 @@ local diff = {
 		["d3001pnilu3001cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "NWS A/R DISC MSL STEP Button",
@@ -132,7 +135,7 @@ local diff = {
 		["d3018pnilu3018cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Expand/FOV Button - Depress",

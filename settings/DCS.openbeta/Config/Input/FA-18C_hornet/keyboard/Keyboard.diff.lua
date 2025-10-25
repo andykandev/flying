@@ -22,6 +22,17 @@ local diff = {
 				},
 			},
 		},
+		["d115pnilunilcdnilvdnilvpnilvunil"] = {
+			["name"] = "Flight - Complete mission and rejoin",
+			["removed"] = {
+				[1] = {
+					["key"] = "R",
+					["reformers"] = {
+						[1] = "LWin",
+					},
+				},
+			},
+		},
 		["d122pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Sound On/Off",
 			["removed"] = {
@@ -48,6 +59,17 @@ local diff = {
 					},
 				},
 			},
+		},
+		["d1760pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "R",
+					["reformers"] = {
+						[1] = "LWin",
+					},
+				},
+			},
+			["name"] = "A/A refueling - \"Ready for precontact\" radio call",
 		},
 		["d177pnilunilcdnilvdnilvpnilvunil"] = {
 			["name"] = "Zoom normal",
@@ -113,6 +135,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "Num.",
+				},
+			},
+		},
+		["d201pnilu202cdnilvdnilvpnilvunil"] = {
+			["name"] = "Aircraft Rudder Left",
+			["removed"] = {
+				[1] = {
+					["key"] = "Z",
 				},
 			},
 		},
@@ -245,6 +275,14 @@ local diff = {
 				},
 			},
 			["name"] = "Toggle helmet visor",
+		},
+		["d3004pnilu3004cd13vd1vpnilvu0"] = {
+			["name"] = "RECCE Event Mark Switch",
+			["removed"] = {
+				[1] = {
+					["key"] = "R",
+				},
+			},
 		},
 		["d3004pnilu3004cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -700,18 +738,6 @@ local diff = {
 			},
 			["name"] = "Left MDI PB 6",
 		},
-		["d3016pnilu3016cd36vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "6",
-					["reformers"] = {
-						[1] = "RCtrl",
-						[2] = "RShift",
-					},
-				},
-			},
-			["name"] = "Right MDI PB 6",
-		},
 		["d3017pnilu3017cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -746,6 +772,14 @@ local diff = {
 				},
 			},
 			["name"] = "Right MDI PB 7",
+		},
+		["d3018pnilu3018cd13vd1vpnilvu0"] = {
+			["name"] = "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
+			["removed"] = {
+				[1] = {
+					["key"] = "A",
+				},
+			},
 		},
 		["d3018pnilu3018cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -1027,18 +1061,6 @@ local diff = {
 			},
 			["name"] = "UFC Keyboard Pushbutton - 8",
 		},
-		["d3026pnilu3026cd35vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "Y",
-					["reformers"] = {
-						[1] = "LCtrl",
-						[2] = "LShift",
-					},
-				},
-			},
-			["name"] = "Left MDI PB 16",
-		},
 		["d3026pnilu3026cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -1050,6 +1072,14 @@ local diff = {
 				},
 			},
 			["name"] = "Right MDI PB 16",
+		},
+		["d3027pnilu3027cd13vd0.2vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "R",
+				},
+			},
+			["name"] = "COMM Switch - COMM 1 (call radio menu)",
 		},
 		["d3027pnilu3027cd25vd1vpnilvu0"] = {
 			["added"] = {
@@ -1158,18 +1188,6 @@ local diff = {
 				},
 			},
 			["name"] = "Left MDI PB 20",
-		},
-		["d3030pnilu3030cd36vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "P",
-					["reformers"] = {
-						[1] = "RCtrl",
-						[2] = "RShift",
-					},
-				},
-			},
-			["name"] = "Right MDI PB 20",
 		},
 		["d3032pnilu3032cd13vd1vpnilvu0"] = {
 			["name"] = "Dispense Switch - Forward(CHAFF)/Center(OFF)",
