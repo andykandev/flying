@@ -17,9 +17,9 @@ cachedGenerationParams =
 			["missionType"] = "Dogfight",
 			["missionRange"] = "",
 			["yearStart"] = 0,
-			["startTime"] = -1,
 			["era"] = "all",
 			["weather"] = "clear",
+			["startTime"] = -1,
 			["yearEnd"] = 9999,
 		}, -- end of ["generalData"]
 		["enemyGroupsData"] = 
