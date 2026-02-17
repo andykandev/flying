@@ -1,9 +1,40 @@
 local diff = {
+	["axisDiffs"] = {
+		["a3011cd9"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "CONSOLES Lights Dimmer Control",
+		},
+	},
 	["keyDiffs"] = {
+		["d3001pnilunilcd35vd0.1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN48",
+				},
+			},
+			["name"] = "Left MDI Brightness Selector Knob - NIGHT",
+		},
 		["d3011pnilu3011cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Left MDI PB 1",
@@ -11,7 +42,7 @@ local diff = {
 		["d3012pnilu3012cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Left MDI PB 2",
@@ -19,7 +50,7 @@ local diff = {
 		["d3013pnilu3013cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "Left MDI PB 3",
@@ -27,7 +58,7 @@ local diff = {
 		["d3014pnilu3014cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Left MDI PB 4",
@@ -35,7 +66,7 @@ local diff = {
 		["d3015pnilu3015cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN1",
 				},
 			},
 			["name"] = "Left MDI PB 5",
@@ -43,7 +74,7 @@ local diff = {
 		["d3016pnilu3016cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN42",
 				},
 			},
 			["name"] = "Left MDI PB 6",
@@ -51,7 +82,7 @@ local diff = {
 		["d3017pnilu3017cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN40",
 				},
 			},
 			["name"] = "Left MDI PB 7",
@@ -59,7 +90,7 @@ local diff = {
 		["d3018pnilu3018cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN38",
 				},
 			},
 			["name"] = "Left MDI PB 8",
@@ -67,7 +98,7 @@ local diff = {
 		["d3019pnilu3019cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN36",
 				},
 			},
 			["name"] = "Left MDI PB 9",
@@ -75,7 +106,7 @@ local diff = {
 		["d3020pnilu3020cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "Left MDI PB 10",
@@ -83,7 +114,7 @@ local diff = {
 		["d3021pnilu3021cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN31",
 				},
 			},
 			["name"] = "Left MDI PB 11",
@@ -91,7 +122,7 @@ local diff = {
 		["d3022pnilu3022cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Left MDI PB 12",
@@ -99,7 +130,7 @@ local diff = {
 		["d3023pnilu3023cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN27",
 				},
 			},
 			["name"] = "Left MDI PB 13",
@@ -107,7 +138,7 @@ local diff = {
 		["d3024pnilu3024cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN25",
 				},
 			},
 			["name"] = "Left MDI PB 14",
@@ -115,7 +146,7 @@ local diff = {
 		["d3025pnilu3025cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "Left MDI PB 15",
@@ -123,7 +154,7 @@ local diff = {
 		["d3026pnilu3026cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "Left MDI PB 16",
@@ -131,7 +162,7 @@ local diff = {
 		["d3027pnilu3027cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Left MDI PB 17",
@@ -139,7 +170,7 @@ local diff = {
 		["d3028pnilu3028cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Left MDI PB 18",
@@ -155,31 +186,15 @@ local diff = {
 		["d3030pnilu3030cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Left MDI PB 20",
 		},
-		["d3041pnilunilcd35vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN28",
-				},
-			},
-			["name"] = "Left MDI Brightness Selector Knob - CCW/Left",
-		},
-		["d3041pnilunilcd35vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "Left MDI Brightness Selector Knob - CW/Right",
-		},
 		["dnilp3042unilcd35vdnilvp-0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Left MDI Brightness Control Knob - CCW/Decrease",
@@ -187,7 +202,7 @@ local diff = {
 		["dnilp3042unilcd35vdnilvp0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN25",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Left MDI Brightness Control Knob - CW/Increase",
@@ -195,7 +210,7 @@ local diff = {
 		["dnilp3044unilcd35vdnilvp-0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "Left MDI Contrast Control Knob - CCW/Decrease",
@@ -203,7 +218,7 @@ local diff = {
 		["dnilp3044unilcd35vdnilvp0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "Left MDI Contrast Control Knob - CW/Increase",

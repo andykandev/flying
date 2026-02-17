@@ -1,9 +1,72 @@
 local diff = {
+	["axisDiffs"] = {
+		["a3013cd9"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_SLIDER1",
+				},
+			},
+			["name"] = "INST PNL Dimmer Control",
+		},
+	},
 	["keyDiffs"] = {
+		["d117pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Join Up Formation",
+		},
+		["d1560pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Rearming and Refueling Window",
+		},
+		["d1684pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Flight - Engage Bandits",
+		},
+		["d1685pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+			},
+			["name"] = "Flight - RTB",
+		},
+		["d238pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Pilot Salute",
+		},
 		["d3011pnilu3011cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Right MDI PB 1",
@@ -11,7 +74,7 @@ local diff = {
 		["d3012pnilu3012cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Right MDI PB 2",
@@ -19,7 +82,7 @@ local diff = {
 		["d3013pnilu3013cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "Right MDI PB 3",
@@ -27,7 +90,7 @@ local diff = {
 		["d3014pnilu3014cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Right MDI PB 4",
@@ -35,7 +98,7 @@ local diff = {
 		["d3015pnilu3015cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN20",
+					["key"] = "JOY_BTN1",
 				},
 			},
 			["name"] = "Right MDI PB 5",
@@ -43,7 +106,7 @@ local diff = {
 		["d3016pnilu3016cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN42",
 				},
 			},
 			["name"] = "Right MDI PB 6",
@@ -51,7 +114,7 @@ local diff = {
 		["d3017pnilu3017cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN40",
 				},
 			},
 			["name"] = "Right MDI PB 7",
@@ -59,7 +122,7 @@ local diff = {
 		["d3018pnilu3018cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN38",
 				},
 			},
 			["name"] = "Right MDI PB 8",
@@ -67,7 +130,7 @@ local diff = {
 		["d3019pnilu3019cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN36",
 				},
 			},
 			["name"] = "Right MDI PB 9",
@@ -75,7 +138,7 @@ local diff = {
 		["d3020pnilu3020cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN34",
 				},
 			},
 			["name"] = "Right MDI PB 10",
@@ -83,7 +146,7 @@ local diff = {
 		["d3021pnilu3021cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN31",
 				},
 			},
 			["name"] = "Right MDI PB 11",
@@ -91,7 +154,7 @@ local diff = {
 		["d3022pnilu3022cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Right MDI PB 12",
@@ -99,7 +162,7 @@ local diff = {
 		["d3023pnilu3023cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN27",
 				},
 			},
 			["name"] = "Right MDI PB 13",
@@ -107,7 +170,7 @@ local diff = {
 		["d3024pnilu3024cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN25",
 				},
 			},
 			["name"] = "Right MDI PB 14",
@@ -115,7 +178,7 @@ local diff = {
 		["d3025pnilu3025cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN23",
 				},
 			},
 			["name"] = "Right MDI PB 15",
@@ -123,7 +186,7 @@ local diff = {
 		["d3026pnilu3026cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN20",
 				},
 			},
 			["name"] = "Right MDI PB 16",
@@ -131,7 +194,7 @@ local diff = {
 		["d3027pnilu3027cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Right MDI PB 17",
@@ -139,7 +202,7 @@ local diff = {
 		["d3028pnilu3028cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Right MDI PB 18",
@@ -155,31 +218,31 @@ local diff = {
 		["d3030pnilu3030cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Right MDI PB 20",
 		},
-		["d3041pnilunilcd36vd-1vpnilvunil"] = {
+		["d522pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN26",
 				},
 			},
-			["name"] = "Right MDI Brightness Selector Knob - CCW/Left",
+			["name"] = "Flight - Attack air defenses",
 		},
-		["d3041pnilunilcd36vd1vpnilvunil"] = {
+		["d523pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN27",
+					["key"] = "JOY_BTN24",
 				},
 			},
-			["name"] = "Right MDI Brightness Selector Knob - CW/Right",
+			["name"] = "Flight - Attack ground targets",
 		},
 		["dnilp3042unilcd36vdnilvp-0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Right MDI Brightness Control Knob - CCW/Decrease",
@@ -187,7 +250,7 @@ local diff = {
 		["dnilp3042unilcd36vdnilvp0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN25",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Right MDI Brightness Control Knob - CW/Increase",
@@ -195,7 +258,7 @@ local diff = {
 		["dnilp3044unilcd36vdnilvp-0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN24",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "Right MDI Contrast Control Knob - CCW/Decrease",
@@ -203,7 +266,7 @@ local diff = {
 		["dnilp3044unilcd36vdnilvp0.5vunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "Right MDI Contrast Control Knob - CW/Increase",
