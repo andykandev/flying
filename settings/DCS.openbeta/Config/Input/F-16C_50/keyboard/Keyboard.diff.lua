@@ -1,5 +1,13 @@
 local diff = {
 	["keyDiffs"] = {
+		["d201pnilu202cdnilvdnilvpnilvunil"] = {
+			["name"] = "Aircraft Rudder Left",
+			["removed"] = {
+				[1] = {
+					["key"] = "Z",
+				},
+			},
+		},
 		["d3006pnilunilcd11vd0.1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
