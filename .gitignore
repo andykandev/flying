@@ -1,2 +1,3 @@
-settings/DCS.openbeta/Config/authdata.bin
-settings/DCS.openbeta/Config/pluginsEnabled.lua
+settings/DCS/Config/authdata.bin
+settings/DCS/Config/pluginsEnabled.lua
+settings/DCS/Config/network.vault
