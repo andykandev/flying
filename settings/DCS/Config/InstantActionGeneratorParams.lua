@@ -1,4 +1,4 @@
 cachedGenerationParams = 
 {
-	["map"] = "Caucasus",
+	["map"] = "Falklands",
 } -- end of cachedGenerationParams
