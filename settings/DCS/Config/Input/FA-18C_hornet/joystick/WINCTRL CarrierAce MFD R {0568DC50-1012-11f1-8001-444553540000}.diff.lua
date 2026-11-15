@@ -223,6 +223,22 @@ local diff = {
 			},
 			["name"] = "Right MDI PB 20",
 		},
+		["d3041pnilunilcd36vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN44",
+				},
+			},
+			["name"] = "Right MDI Brightness Selector Knob - CCW/Left",
+		},
+		["d3041pnilunilcd36vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN43",
+				},
+			},
+			["name"] = "Right MDI Brightness Selector Knob - CW/Right",
+		},
 		["d522pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

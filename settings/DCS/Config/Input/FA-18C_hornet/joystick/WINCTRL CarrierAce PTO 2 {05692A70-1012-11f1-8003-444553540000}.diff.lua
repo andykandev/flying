@@ -24,6 +24,14 @@ local diff = {
 			},
 			["name"] = "Probe Control Switch - EXTEND",
 		},
+		["d3003pnilu3003cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "FCS RESET Button",
+		},
 		["d3003pnilunilcd23vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {

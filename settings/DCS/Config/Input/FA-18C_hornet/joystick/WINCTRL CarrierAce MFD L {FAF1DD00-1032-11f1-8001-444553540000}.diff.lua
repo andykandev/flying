@@ -23,14 +23,6 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3001pnilunilcd35vd0.1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN48",
-				},
-			},
-			["name"] = "Left MDI Brightness Selector Knob - NIGHT",
-		},
 		["d3011pnilu3011cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -190,6 +182,22 @@ local diff = {
 				},
 			},
 			["name"] = "Left MDI PB 20",
+		},
+		["d3041pnilunilcd35vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN44",
+				},
+			},
+			["name"] = "Left MDI Brightness Selector Knob - CCW/Left",
+		},
+		["d3041pnilunilcd35vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN43",
+				},
+			},
+			["name"] = "Left MDI Brightness Selector Knob - CW/Right",
 		},
 		["dnilp3042unilcd35vdnilvp-0.5vunil"] = {
 			["added"] = {

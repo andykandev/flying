@@ -5,9 +5,9 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.3,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0.01,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -26,9 +26,9 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.2,
+							[1] = 0.3,
 						},
-						["deadzone"] = 0.02,
+						["deadzone"] = 0.01,
 						["hardwareDetent"] = false,
 						["hardwareDetentAB"] = 0,
 						["hardwareDetentMax"] = 0,
@@ -42,20 +42,12 @@ local diff = {
 			},
 			["name"] = "Roll",
 		},
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
 	},
 	["keyDiffs"] = {
 		["d3002pnilu3002cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
@@ -71,7 +63,7 @@ local diff = {
 		["d3005pnilu3005cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Sensor Control Switch - Fwd",
@@ -79,7 +71,7 @@ local diff = {
 		["d3006pnilu3006cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN13",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Sensor Control Switch - Aft",
@@ -87,7 +79,7 @@ local diff = {
 		["d3007pnilu3007cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Sensor Control Switch - Left",
@@ -95,7 +87,7 @@ local diff = {
 		["d3008pnilu3008cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Sensor Control Switch - Right",
@@ -103,7 +95,7 @@ local diff = {
 		["d3009pnilu3009cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
+					["key"] = "JOY_BTN16",
 				},
 			},
 			["name"] = "Select Sparrow",
@@ -111,7 +103,7 @@ local diff = {
 		["d3010pnilu3010cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
+					["key"] = "JOY_BTN17",
 				},
 			},
 			["name"] = "Select Gun",
@@ -119,7 +111,7 @@ local diff = {
 		["d3011pnilu3011cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "Select AMRAAM",
@@ -127,7 +119,7 @@ local diff = {
 		["d3012pnilu3012cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
+					["key"] = "JOY_BTN18",
 				},
 			},
 			["name"] = "Select Sidewinder",
@@ -135,7 +127,7 @@ local diff = {
 		["d3013pnilu3013cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Undesignate/Nose Wheel Steer Switch",
@@ -143,23 +135,23 @@ local diff = {
 		["d3018pnilu3018cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
 		},
-		["d3023pnilu3023cd13vd1vpnilvu0"] = {
+		["d3023pnilu3023cd36vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "Throttle Designator Controller - DEPRESS",
+			["name"] = "Right MDI PB 13",
 		},
 		["d3045pnilu3045cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN14",
 				},
 			},
 			["name"] = "Sensor Control Switch - Depress",
@@ -167,7 +159,7 @@ local diff = {
 		["dnilp3014u3014cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
 			["name"] = "Trimmer Switch - PULL(CLIMB)",
@@ -175,7 +167,7 @@ local diff = {
 		["dnilp3015u3015cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN_POV1_U",
 				},
 			},
 			["name"] = "Trimmer Switch - PUSH(DESCEND)",
@@ -183,7 +175,7 @@ local diff = {
 		["dnilp3016u3016cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN_POV1_L",
 				},
 			},
 			["name"] = "Trimmer Switch - LEFT WING DOWN",
@@ -191,7 +183,7 @@ local diff = {
 		["dnilp3017u3017cd13vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN_POV1_R",
 				},
 			},
 			["name"] = "Trimmer Switch - RIGHT WING DOWN",

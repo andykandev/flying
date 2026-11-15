@@ -23,6 +23,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d3001pnilu3001cd33vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "IFEI Mode Button",
+		},
+		["d3002pnilu3002cd33vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "IFEI QTY Button",
+		},
 		["d3002pnilu3002cd37vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {

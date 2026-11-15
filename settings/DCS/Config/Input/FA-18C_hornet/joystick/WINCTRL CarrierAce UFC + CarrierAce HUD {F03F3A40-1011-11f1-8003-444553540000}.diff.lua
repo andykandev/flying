@@ -574,38 +574,6 @@ local diff = {
 			},
 			["name"] = "UFC COMM 2 Channel Selector Knob - CW/Increase",
 		},
-		["d3041pnilunilcd35vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "Left MDI Brightness Selector Knob - CCW/Left",
-		},
-		["d3041pnilunilcd35vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN34",
-				},
-			},
-			["name"] = "Left MDI Brightness Selector Knob - CW/Right",
-		},
-		["d3041pnilunilcd36vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN37",
-				},
-			},
-			["name"] = "Right MDI Brightness Selector Knob - CCW/Left",
-		},
-		["d3041pnilunilcd36vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Right MDI Brightness Selector Knob - CW/Right",
-		},
 	},
 }
 return diff

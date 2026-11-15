@@ -217,6 +217,14 @@ local diff = {
 			},
 			["name"] = "T/O TRIM Button",
 		},
+		["d3003pnilu3003cd6vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN92",
+				},
+			},
+			["name"] = "Fuel Dump Switch - ON/OFF",
+		},
 		["d3004pnilu3004cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -288,6 +296,14 @@ local diff = {
 				},
 			},
 			["name"] = "MODE Switch - NVG",
+		},
+		["d3005pnilu3005cd62vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN80",
+				},
+			},
+			["name"] = "LTD/R Switch - ARM",
 		},
 		["d3005pnilunilcd6vd-1vpnilvunil"] = {
 			["added"] = {
