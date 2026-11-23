@@ -60,6 +60,22 @@ local diff = {
 			},
 			["name"] = "Weapon Release Button",
 		},
+		["d3004pnilunilcd57vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Raise helmet visor",
+		},
+		["d3004pnilunilcd57vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Lower helmet visor",
+		},
 		["d3005pnilu3005cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -155,6 +171,14 @@ local diff = {
 				},
 			},
 			["name"] = "Sensor Control Switch - Depress",
+		},
+		["d438pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Toggle goggles",
 		},
 		["dnilp3014u3014cd13vdnilvp1vu0"] = {
 			["added"] = {
